@@ -4,6 +4,21 @@ import "./App.css";
 import Person from "./Person/Person";
 
 class App extends Component {
+  
+  state= {
+    persons: [
+        {name: 'Kata', species: 'reptilian'},
+        {name: 'Bob', species: 'thing'},
+        {name: 'Janet', species: 'succubus'},
+        {name: 'Ted', species: 'dudebro'},
+        {name: 'Blob', species: 'blob'}
+    ]
+
+  };
+  
+  
+  
+  
   render() {
     return (
       <div>
