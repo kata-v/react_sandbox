@@ -1,0 +1,14 @@
+.dateHeader{
+    background: powderblue;
+    color: rgb(20, 20, 20);    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-items: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    height: 100px;
+}
+
+.dateHeader p {
+    text-align: right;
+}
