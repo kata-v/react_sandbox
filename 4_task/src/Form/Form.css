@@ -1,0 +1,10 @@
+.formContainer{
+    background: lightseagreen;
+    width: 40%;
+    padding: 2rem;
+    margin: 2rem 5rem;
+}
+
+.formContainer input {
+    display: block;
+}

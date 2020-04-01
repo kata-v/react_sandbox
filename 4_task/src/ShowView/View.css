@@ -1,0 +1,13 @@
+.returnContainer{
+    background-image: url("https://source.unsplash.com/WqPAETBU2G8");
+    width:40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin: 0 5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.4rem;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Form from './Form/Form';
-
+import View from './ShowView/View';
 
 
 
@@ -10,6 +10,7 @@ class App extends Component {
   return(
     <div>
 <Form/>
+<View/>
     </div>
   );
 
