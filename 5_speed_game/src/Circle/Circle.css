@@ -7,3 +7,8 @@
     margin: 2rem;
     
 }
+
+.circle.active {
+    box-shadow: inset 5px 5px 10px black;
+    background: url("https://source.unsplash.com/w9KEokhajKw") no-repeat center center / cover;
+}
