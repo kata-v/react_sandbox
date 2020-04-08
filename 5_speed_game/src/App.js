@@ -23,6 +23,7 @@ class App extends Component{
   next = () => {
     if(this.state.rounds >= 5){
       this.gameOverHandler();
+      return;
     }
 
     let nextActive = undefined;
