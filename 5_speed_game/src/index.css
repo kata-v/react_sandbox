@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Wallpoet', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(navy, fuchsia);
+  background-image: linear-gradient(rgb(47, 47, 224), fuchsia);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2rem;
+  
 
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin: 2rem;
 }
 
 button {
@@ -19,4 +35,8 @@ button {
   margin: 3rem;
   padding: 1rem;
 
+}
+
+button:hover {
+  background-color: cornflowerblue;
 }

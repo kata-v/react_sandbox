@@ -1,0 +1,51 @@
+.backgroundLayer {
+    background: rgb(33, 51, 51, 0.4);
+    /* z-index: 10; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameOverBox {
+    /* z-index: 2000; */
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    /* height: 200px; */
+    width: 40%;
+    padding: 2rem;
+    
+    }
+
+h2 {
+    margin-top: 30px;
+    font-family: 'Nosifer', cursive;
+
+}
+
+span {
+    color: darkred;
+}
+
+.gameOverBox button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin: 0;
+}
+
+.scoretitles {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: smaller;
+}
+
+.scoretitles p {
+    margin: 1rem;
+}

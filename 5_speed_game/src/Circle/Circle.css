@@ -8,7 +8,14 @@
     
 }
 
+/* .circle:hover{
+cursor: url("/5_speed_game/public/bomb-solid.svg"), auto;
+
+} */
+/* Virus/corona from "https://pixabay.com/fi/users/iXimus-2352783/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4931132" Vektor Kunst iXimus from Pixabay */
+/* Skull image from "https://pixabay.com/fi/users/xzippyx-13842406/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4748907" xzippyx from Pixabay */
 .circle.active {
-    box-shadow: inset 5px 5px 10px black;
-    background: url("https://source.unsplash.com/w9KEokhajKw") no-repeat center center / cover;
+    box-shadow: inset -5px -5px 10px black;
+    /* background: url('../images/corona.png') no-repeat center center / cover; */
+    background: url('../Assets/skull.png') no-repeat center center / cover;
 }
