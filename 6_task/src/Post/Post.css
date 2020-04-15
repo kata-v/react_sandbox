@@ -1,0 +1,23 @@
+.postsContainer{
+    display: grid;
+    align-items: flex-start; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem; 
+    /* background: grey; */
+}
+
+.post {
+    background: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 20px darkred;
+    border: 10px solid whitesmoke;
+}
+
+img{
+    display: block;
+    max-width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
