@@ -2,11 +2,12 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import postdata from "../Post/postdata";
 
+
 const Post = () => {
   let { postId } = useParams();
   let post = postdata.find((p) => p.title === postId);
 
-  return (
+  return (  
     <div>
       <div>
         <img src={post.img} alt={post.title} />
