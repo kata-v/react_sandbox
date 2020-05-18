@@ -13,3 +13,6 @@ body {
     color: black;
     
 }
+.homeContainer h1 {
+    margin-bottom: 3rem;
+}

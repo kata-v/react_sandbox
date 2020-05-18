@@ -1,8 +1,17 @@
 .fullPost{
+  margin: 3rem;
+  background-color:  #4E8D97;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  color: black;
 
 }
 
 
 .fullPost img {
+  display: block;
   width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
 }

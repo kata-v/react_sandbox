@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NewPost.css";
 import axios from 'axios';
+import Button from "react-bootstrap/Button";
 
 const NewPost = () => {
 
@@ -41,8 +42,8 @@ const NewPost = () => {
         <div>
           <label htmlFor="img">Image URL</label>
           <input type="text" name="img" id="img" onChange={changeValueHandler} />
-        </div>
-        <button onClick={addPostHandler} type="submit">Add new post</button>
+        </div><Button variant="dark" onClick={addPostHandler} type="submit"> Add new post </Button>
+        {/* <button onClick={addPostHandler} type="submit">Add new post</button> */}
       </form>
     </div>
   );

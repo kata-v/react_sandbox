@@ -26,8 +26,9 @@ const FullPost = () => {
     postData = (
     <div className="fullPost">
       <h1>{loadedPost.title}</h1>
-      <p>{loadedPost.desc}</p>
       <img src={loadedPost.img} alt={loadedPost.title} />
+      <p>{loadedPost.desc}</p>
+      
     </div>
     );
   }
