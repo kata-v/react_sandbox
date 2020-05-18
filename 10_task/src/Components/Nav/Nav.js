@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../Nav/Nav.css";
 
-const Nav = () => {
+const MainNav = () => {
   return (
-    <div>
+    <div className="mainNavContainer">
       <nav>
         <ul>
           <li>
@@ -21,4 +22,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default MainNav;

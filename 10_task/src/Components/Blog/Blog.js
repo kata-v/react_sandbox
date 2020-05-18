@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import CardDeck from 'react-bootstrap/CardDeck';
 import PostCard from "../PostCard/PostCard";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
+import "../Blog/Blog.css";
 
 
 import FullPost from "../FullPost/FullPost";
@@ -55,9 +58,11 @@ const removeHandler = (id) => {
           <FullPost />
         </Route>
         <Route path={match.path}>
-          <div>
-            <h1>Blog</h1>
+          <div className="blogContainer">
+            <h1>My stories</h1>
+            <div className="postsContainer">
             {PostList}
+            </div>
           </div>
         </Route>
       </Switch>

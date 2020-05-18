@@ -3,9 +3,14 @@
   margin: 1rem;
   background: #eee;
   padding: 1rem;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .postCard img {
   width: 100%;
 }
+
+.postLink {
+  color: white; 
+}
+

@@ -1,0 +1,14 @@
+.mainNavContainer{
+    position: absolute;
+    right: 30px;
+    
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+      color: white;
+     
+  }
+
+  .btn-danger, .btn-dark {
+    margin-top: 1rem;
+}

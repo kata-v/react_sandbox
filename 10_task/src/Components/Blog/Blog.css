@@ -1,0 +1,16 @@
+.blogContainer {
+    margin: 3rem;
+    background-color: #4E8D97;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+.postsContainer {
+    
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

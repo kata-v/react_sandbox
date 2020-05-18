@@ -27,7 +27,7 @@ const NewPost = () => {
   };
 
   return (
-    <>
+    <div className="newPostContainer">
       <h1>Add new post</h1>
       <form className="newPost">
         <div>
@@ -44,7 +44,7 @@ const NewPost = () => {
         </div>
         <button onClick={addPostHandler} type="submit">Add new post</button>
       </form>
-    </>
+    </div>
   );
 };
 
