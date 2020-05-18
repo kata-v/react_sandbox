@@ -25,8 +25,8 @@ const FullPost = () => {
   if (loadedPost) {
     postData = (
     <div className="fullPost">
-      <h1>Post {loadedPost.id}</h1>
-      <p>{loadedPost.title}</p>
+      <h1>{loadedPost.title}</h1>
+      <p>{loadedPost.desc}</p>
       <img src={loadedPost.img} alt={loadedPost.title} />
     </div>
     );
